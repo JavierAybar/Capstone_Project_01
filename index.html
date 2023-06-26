@@ -1,12 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css"
+      integrity="sha512-+mlclc5Q/eHs49oIOCxnnENudJWuNqX5AogCiqRBgKnpoplPzETg2fkgBFVC6WYUVxYYljuxPNG8RE7yBy1K+g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="styles.css" />
     <title>Javier's Capstom Project</title>
-</head>
-<body>
-    <h1>a</h1>
-</body>
+  </head>
+  <body>
+    <header class="toolbar__container">
+      <div class="toolbar__logo">
+        <a href="#">Logo</a>
+      </div>
+
+      <button
+        class="toolbar_btn hamburger hamburger--collapse hamburger-layer-color"
+        type="button"
+      >
+        <span class="hamburger-box hamburger-layer-color">
+          <span class="hamburger-inner hamburger-layer-color"></span>
+        </span>
+      </button>
+
+      <nav class="toolbar__menu">
+        <ul class="toolbar__menu--gap">
+          <li><a class="toolbar__menuLink" href="#">About</a></li>
+          <li><a class="toolbar__menuLink" href="#">Program</a></li>
+          <li><a class="toolbar__menuLink" href="#">Join</a></li>
+          <li><a class="toolbar__menuLink" href="#">Sponsor</a></li>
+          <li><a class="toolbar__menuLink" href="#">News</a></li>
+        </ul>
+        <hr class="hrs" />
+        <div class="toolbar__socialMedia">
+          <a class="toolbar__socialMedia__item" href="">Facebook</a>
+          <a class="toolbar__socialMedia__item" href="">Twitter</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main__container">
+      <!-- Hero section -->
+      <section class="hero__container">
+        <h1 class="hero__h1">
+          CREATIVE COMMONS <br />
+          GLOBAL SUMMT<br />2015
+        </h1>
+        <div class="hero__paragraph">
+          <p>
+            A joyful celebration believing in the value of openness and sharing,
+            creating a positive change with people from over 80 countries is
+            taking place in October, in Korea.
+          </p>
+        </div>
+        <div class="hero__info">
+          <h2 class="hero__info-date">2015.10.15(THU) ~ 16(FRI)</h2>
+          <h3 class="hero__info-place">
+            @ National Museum of Karea, Art Center Nabi and more
+          </h3>
+        </div>
+      </section>
+      <!-- Main program -->
+      <section class="program__container">
+        <h2 class="program__h2">Main Program</h2>
+        <hr class="program__line_h2" />
+
+        <ul class="program__activities-container">
+          <li class="program__activities">
+            <img src="images/program_icon_1.svg" alt="lecture image" />
+            <h3 class="program__activities-h3">Lecture</h3>
+            <p class="program__activities-p">
+              Listen to the speakers from various countries about the messages
+              of sharing and opening.
+            </p>
+          </li>
+          <li class="program__activities">
+            <img src="images/program_icon_2.svg" alt="Exhibition image" />
+            <h3 class="program__activities-h3">
+              CC <br />
+              Exhibition
+            </h3>
+            <p class="program__activities-p">
+              Appreciate various creations applying CC license of artists,
+              organized from Art Center Nabi
+            </p>
+          </li>
+          <li class="program__activities">
+            <img src="images/program_icon_3.svg" alt="Forum image" />
+            <h3 class="program__activities-h3">Forum</h3>
+            <p class="program__activities-p">
+              Have the time to share your thoughts and opinions with experts for
+              each topic.
+            </p>
+          </li>
+          <li class="program__activities">
+            <img src="images/program_icon_4.svg" alt="Workshop image" />
+            <h3 class="program__activities-h3">Workshop</h3>
+            <p class="program__activities-p">
+              Try creating your own work using open source license rather than
+              just watching at it.
+            </p>
+          </li>
+          <li class="program__activities">
+            <img src="images/program_icon_5.svg" alt="Ignite image" />
+            <h3 class="program__activities-h3">CC Ignite</h3>
+            <p class="program__activities-p">
+              get opportunities to network with CC affiliates around the world,
+              also after the summit.
+            </p>
+          </li>
+        </ul>
+        <button class="program__btn">Join CC Global Summit 2015</button>
+      </section>
+      <!-- Featured Speakers -->
+      <section class="speakers__container">
+        <h2 class="speakers__title">Featured Speakers</h2>
+        <hr class="speakers__line-title" />
+        <div class="speaker__cards">
+
+          <div class="speaker__card">
+            <img src="images/speaker_1.svg" alt="Yochai Benkler" />
+            <div>
+              <h3 class="speaker__name">Yochai Benkler</h3>
+              <p class="speaker__profession">
+                Berkman Professor of Entrepreneurial Legal Studies at Harvard
+                Law School
+              </p>
+              <p class="speaker__description">
+                Benkler studies commons-based peer production, and published his
+                seminal book, The Wealth of Networks in 2006
+              </p>
+            </div>
+          </div>
+
+          <div class="speaker__card">
+            <img src="images/speaker_2.svg" alt="Yochai Benkler" />
+            <div>
+              <h3 class="speaker__name">SohYeong Noh</h3>
+              <p class="speaker__profession">
+                Director of Art Centre Nabi and a board member of CC Korea
+              </p>
+              <p class="speaker__description">
+                As the main venue for new media art production in Korea, Nabi
+                promotes cross-disciplinary collaboration and understanding
+                among science technology, humanities, and the arts.
+              </p>
+            </div>
+          </div>
+          <button class="speaker__btn">See More
+            <img class="arrow_down-icon" src="images/arrow_down.png" alt="">
+          </button>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </section>
+    </main>
+    <script src="JS/main.js" type="module"></script>
+  </body>
 </html>
