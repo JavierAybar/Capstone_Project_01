@@ -17,7 +17,12 @@
   <body>
     <header class="toolbar__container">
       <div class="toolbar__logo">
-        <a href="#">Logo</a>
+        <a href="#home-link"
+          ><img
+            class="toolbar__logo--size"
+            src="images/logo-white-s.png"
+            alt=""
+        /></a>
       </div>
 
       <button
@@ -29,9 +34,9 @@
         </span>
       </button>
 
-      <nav class="toolbar__menu">
+      <nav class="toolbar__menu slice">
         <ul class="toolbar__menu--gap">
-          <li><a class="toolbar__menuLink" href="#">About</a></li>
+          <li><a class="toolbar__menuLink" href="about.html">About</a></li>
           <li><a class="toolbar__menuLink" href="#">Program</a></li>
           <li><a class="toolbar__menuLink" href="#">Join</a></li>
           <li><a class="toolbar__menuLink" href="#">Sponsor</a></li>
@@ -45,25 +50,26 @@
       </nav>
     </header>
 
-    <main class="main__container">
+    <main id="home-link" class="main__container">
       <!-- Hero section -->
-      <section class="hero__container">
-        <h1 class="hero__h1">
-          CREATIVE COMMONS <br />
-          GLOBAL SUMMT<br />2015
-        </h1>
-        <div class="hero__paragraph">
-          <p>
-            A joyful celebration believing in the value of openness and sharing,
-            creating a positive change with people from over 80 countries is
-            taking place in October, in Korea.
-          </p>
-        </div>
-        <div class="hero__info">
-          <h2 class="hero__info-date">2015.10.15(THU) ~ 16(FRI)</h2>
-          <h3 class="hero__info-place">
-            @ National Museum of Karea, Art Center Nabi and more
-          </h3>
+      <section class="hero__background-img">
+        <div class="hero__container">
+          <h1 class="hero__h1">
+            IGNITE YOUR CAREER<br />
+            WITH AYBAR ACADEMY
+          </h1>
+          <div class="hero__paragraph">
+            <p>
+              Join us for an immersive coding experience, where you can learn
+              and grow your skills in a supportive community. Our bootcamp
+              offers hands-on training and real-world projects to prepare you
+              for a successful career in technology.
+            </p>
+          </div>
+          <div class="hero__info">
+            <h2 class="hero__info-date">Next Session: October 23th, 2024</h2>
+            <h3 class="hero__info-place">@ Virtual Campus and Coding Labs</h3>
+          </div>
         </div>
       </section>
       <!-- Main program -->
@@ -74,58 +80,61 @@
         <ul class="program__activities-container">
           <li class="program__activities">
             <img src="images/program_icon_1.svg" alt="lecture image" />
-            <h3 class="program__activities-h3">Lecture</h3>
+            <h3 class="program__activities-h3">Coding Lecture</h3>
             <p class="program__activities-p">
-              Listen to the speakers from various countries about the messages
-              of sharing and opening.
+              Attend interactive coding sessions to learn various programming
+              concepts and technologies.
             </p>
           </li>
           <li class="program__activities">
             <img src="images/program_icon_2.svg" alt="Exhibition image" />
-            <h3 class="program__activities-h3">
-              CC <br />
-              Exhibition
-            </h3>
+            <h3 class="program__activities-h3">Hands-on Projects</h3>
             <p class="program__activities-p">
-              Appreciate various creations applying CC license of artists,
-              organized from Art Center Nabi
+              Engage in practical projects where you apply your coding skills to
+              build real-world applications.
             </p>
           </li>
           <li class="program__activities">
             <img src="images/program_icon_3.svg" alt="Forum image" />
-            <h3 class="program__activities-h3">Forum</h3>
+            <h3 class="program__activities-h3">Code Forum</h3>
             <p class="program__activities-p">
-              Have the time to share your thoughts and opinions with experts for
-              each topic.
+              Participate in interactive discussions and workshops with industry
+              experts and fellow students.
             </p>
           </li>
           <li class="program__activities">
             <img src="images/program_icon_4.svg" alt="Workshop image" />
-            <h3 class="program__activities-h3">Workshop</h3>
+            <h3 class="program__activities-h3">Hackathon</h3>
             <p class="program__activities-p">
-              Try creating your own work using open source license rather than
-              just watching at it.
+              Collaborate with a team to develop innovative coding solutions in
+              a limited timeframe.
             </p>
           </li>
           <li class="program__activities">
             <img src="images/program_icon_5.svg" alt="Ignite image" />
-            <h3 class="program__activities-h3">CC Ignite</h3>
+            <h3 class="program__activities-h3">Networking</h3>
             <p class="program__activities-p">
-              get opportunities to network with CC affiliates around the world,
-              also after the summit.
+              Connect with like-minded individuals, mentors, and industry
+              professionals to expand your network.
             </p>
           </li>
         </ul>
-        <button class="program__btn">Join CC Global Summit 2015</button>
+        <button class="program__btn program__btn--none">
+          Join the Academy
+        </button>
+        <a href=""><h3 class="program__see-more">SEE THE WHOLE PROGRAM</h3></a>
       </section>
       <!-- Featured Speakers -->
       <section class="speakers__container">
-        <h2 class="speakers__title">Featured Speakers</h2>
+        <h2 class="speakers__title">Testimonials</h2>
         <hr class="speakers__line-title" />
         <div class="speaker__cards">
-
           <div class="speaker__card">
-            <img src="images/speaker_1.svg" alt="Yochai Benkler" />
+            <img
+              class="speaker__img"
+              src="images/speaker_1.svg"
+              alt="Yochai Benkler"
+            />
             <div>
               <h3 class="speaker__name">Yochai Benkler</h3>
               <p class="speaker__profession">
@@ -153,16 +162,96 @@
               </p>
             </div>
           </div>
-          <button class="speaker__btn">See More
-            <img class="arrow_down-icon" src="images/arrow_down.png" alt="">
+
+          <div class="speaker__card">
+            <img src="images/speaker_2.svg" alt="Yochai Benkler" />
+            <div>
+              <h3 class="speaker__name">SohYeong Noh</h3>
+              <p class="speaker__profession">
+                Director of Art Centre Nabi and a board member of CC Korea
+              </p>
+              <p class="speaker__description">
+                As the main venue for new media art production in Korea, Nabi
+                promotes cross-disciplinary collaboration and understanding
+                among science technology, humanities, and the arts.
+              </p>
+            </div>
+          </div>
+
+          <div class="speaker__card">
+            <img src="images/speaker_2.svg" alt="Yochai Benkler" />
+            <div>
+              <h3 class="speaker__name">SohYeong Noh</h3>
+              <p class="speaker__profession">
+                Director of Art Centre Nabi and a board member of CC Korea
+              </p>
+              <p class="speaker__description">
+                As the main venue for new media art production in Korea, Nabi
+                promotes cross-disciplinary collaboration and understanding
+                among science technology, humanities, and the arts.
+              </p>
+            </div>
+          </div>
+
+          <div class="speaker__card">
+            <img src="images/speaker_2.svg" alt="Yochai Benkler" />
+            <div>
+              <h3 class="speaker__name">SohYeong Noh</h3>
+              <p class="speaker__profession">
+                Director of Art Centre Nabi and a board member of CC Korea
+              </p>
+              <p class="speaker__description">
+                As the main venue for new media art production in Korea, Nabi
+                promotes cross-disciplinary collaboration and understanding
+                among science technology, humanities, and the arts.
+              </p>
+            </div>
+          </div>
+
+          <div class="speaker__card">
+            <img src="images/speaker_2.svg" alt="Yochai Benkler" />
+            <div>
+              <h3 class="speaker__name">SohYeong Noh</h3>
+              <p class="speaker__profession">
+                Director of Art Centre Nabi and a board member of CC Korea
+              </p>
+              <p class="speaker__description">
+                As the main venue for new media art production in Korea, Nabi
+                promotes cross-disciplinary collaboration and understanding
+                among science technology, humanities, and the arts.
+              </p>
+            </div>
+          </div>
+
+          <button class="speaker__btn speaker__btn--none">
+            See More
+            <img class="arrow_down-icon" src="images/arrow_down.png" alt="" />
           </button>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
+        </div>
+      </section>
+
+      <section class="partner__container">
+        <h2 class="partner__title">Partner</h2>
+        <hr class="logo__line" />
+        <div class="partner__logos">
+          <img src="images/mozilla_partner.svg" alt="mozilla logo" />
+          <img src="images/google_partner.svg" alt="google logo" />
+          <img src="images/naver_partner.svg" alt="naver logo" />
+          <img src="images/daumkakao_partner.svg" alt="daumkakao logo" />
+          <img src="images/airbnb_partner.svg" alt="airbnb logo" />
         </div>
       </section>
     </main>
+
+    <footer class="footer__container">
+      <img
+        class="footer__logo"
+        src="images/logo-white-s.png"
+        alt="creative commons korea logo"
+      />
+      <p class="footer__paragraph">2023 Aybar Academy. Some Rights Reserved.</p>
+    </footer>
+
     <script src="JS/main.js" type="module"></script>
   </body>
 </html>
