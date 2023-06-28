@@ -76,8 +76,8 @@
 
   .about__hero {
     width: 54vw;
-    height: 92vh;
-    margin: 18% 0 0 0;
+    height: 69vh;
+    margin: 29% 0 0 0;
   }
 
   .about__contact-description {
@@ -94,6 +94,12 @@
   .about__hero {
     width: 54vw;
     height: 80vh;
+    margin: 15% 0 0 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .about__hero {
     margin: 0 0 0 0;
   }
 }
