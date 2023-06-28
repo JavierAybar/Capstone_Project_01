@@ -71,7 +71,7 @@
 
 @media screen and (min-width: 768px) {
   .about__title {
-    font-size: 3.5rem;
+    font-size: 4rem;
     line-height: 50px;
   }
 
@@ -306,6 +306,7 @@
   .footer__logo-desktop {
     display: flex;
     width: fit-content;
-    height: 15vh;
+    height: 95%;
+    width: 15%;
   }
 }
