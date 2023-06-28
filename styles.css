@@ -300,6 +300,7 @@ a {
   height: 82px;
   padding: 0;
   gap: 4%;
+  border-radius: 4px;
 }
 
 .program__activities-h3 {
@@ -330,6 +331,7 @@ a {
   width: 80%;
   height: 11%;
   margin: 10px;
+  border-radius: 6px;
 }
 
 .program__see-more {
