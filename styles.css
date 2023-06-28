@@ -92,7 +92,7 @@ a {
 
 .toolbar__logo--size {
   width: 100%;
-  max-height: 8vh;
+  max-height: 7vh;
 }
 
 @media screen and (min-width: 768px) {
@@ -172,6 +172,7 @@ a {
 
   .container_links {
     display: flex;
+    align-items: center;
     width: 32%;
     gap: 5%;
   }
