@@ -39,23 +39,19 @@ After you're finished please remove all the comments and instructions!
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
   - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Porfolio] <a name="about-project"></a>
+# 📖 [Capstone] <a name="about-project"></a>
 
- -The Portfolio project is about creating pages with mobile-first.
+ -My Capstone project is a web about the Aybar Academy (code academy), In this project I show some of my skills learned so far.
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -65,7 +61,9 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Client</summary>
   <ul>
-    <li>HTML and CSS</li>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavasScript</li>
   </ul>
 </details>
 
@@ -74,9 +72,8 @@ After you're finished please remove all the comments and instructions!
 ### Key Features <a name="key-features"></a>
 
 
-- **[It is a simple design]**
-- **[It shows the proper GitHub Flow]**
-- **[It is easy to navigate]**
+- **[Responsive Design]**
+- **[Dinamic creation of content]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -84,7 +81,7 @@ After you're finished please remove all the comments and instructions!
 ## :movie_camera: WALKTHROUGH
 
 
-- [Walkthrough video]
+- [Walkthrough video](https://drive.google.com/file/d/1_NXVzrnXsqo_GBhJ2nUeA-Y3ga8EgJA2/view)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LIVE DEMO -->
@@ -92,7 +89,7 @@ After you're finished please remove all the comments and instructions!
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- You can visit the live demo [here]
+- You can visit the live demo [here](https://javieraybar.github.io/Capstone_Project_01/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -107,7 +104,7 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
--To have a computer, Internet, Keyboard and Mouse
+-Clone this repo or fork.
 
 ### Setup
 
@@ -115,11 +112,9 @@ Clone this repository to your desired folder:
 
 -Open it with your preffered IDE (such as Visual Studio Code).
 
-### Install
+`cd my-desire-folder
+git clone git@github.com:JavierAybar/Capstone_Project_01.git`
 
-Install this project with:
-
--N/A
 
 ### Deployment
 
@@ -150,6 +145,7 @@ You can deploy this project using:
 - [ ] **[More Designs]**
 - [ ] **[More Functions]**
 - [ ] **[More Content]**
+- [ ] **[More Animations]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -175,7 +171,7 @@ If you like this project, you can give me a star and keep an eye on my profile b
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse Team for giving me the opportunity to improve my skills.
+Original design idea by [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) in Behance.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -184,6 +180,3 @@ I would like to thank Microverse Team for giving me the opportunity to improve m
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
