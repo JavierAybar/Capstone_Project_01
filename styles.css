@@ -110,10 +110,12 @@ a {
     0% {
       transform: translateX(-100%);
     }
+
     100% {
       transform: translateX(0%);
     }
   }
+
   .slice {
     animation: slice 1s;
   }
@@ -145,7 +147,6 @@ a {
     justify-content: center;
     align-items: center;
     width: 30%;
-    height: -webkit-fill-available;
   }
 }
 
@@ -162,7 +163,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: linear-gradient(rgb(195 190 190 / 0.5), rgba(195, 190, 190, 1)) , url(images/pexels-christina-morillo-1181676\(1\).jpg);
+  background-image: linear-gradient(rgb(195 190 190 / 0.5), rgba(195, 190, 190, 1)), url('images/background-hero.jpg');
   background-size: 100vw 100%;
   width: 100%;
 }
@@ -178,10 +179,9 @@ a {
 }
 
 .hero__h1 {
-  background-image: url('images/background-h1.jpg');
+  background-image: url("images/background-h1.jpg");
   background-size: cover;
   -webkit-background-clip: text;
-  background-clip: text;
   color: rgba(236, 82, 66, 0.7);
   font-size: 1.7rem;
   font-weight: 800;
@@ -248,14 +248,14 @@ a {
   .hero__info-place {
     font-size: 1.6rem;
   }
-
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1440px) {
   .hero__container {
     margin: 5% 10% 5% 0;
   }
 }
+
 /* Program */
 
 .program__container {
@@ -381,7 +381,7 @@ a {
   .program__see-more {
     display: flex;
     color: #fff;
-    font-size: 1.3rem ;
+    font-size: 1.3rem;
     font-weight: 400;
     line-height: 28px;
     margin-top: 35px;
@@ -472,14 +472,14 @@ a {
 .arrow__up-icon {
   width: 11px;
   margin-left: 4px;
-  transform: rotate(180deg) ;
+  transform: rotate(180deg);
 }
 
 .hiden__speaker {
   display: none;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   .speakers__container {
     width: 100%;
     height: auto;
@@ -487,7 +487,7 @@ a {
   }
 
   .speakers__title {
-    margin: 3% 0 0 0 ;
+    margin: 3% 0 0 0;
     font-size: 1.7rem;
   }
 
@@ -525,27 +525,28 @@ a {
   }
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
   .speaker__cards {
     height: 66vh;
   }
-  
+
   .speaker__card {
     width: 39%;
   }
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1440px) {
   .speaker__card {
     width: 33%;
   }
 }
+
 /* Partners */
 .partner__container {
-    display: none;
+  display: none;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   .partner__container {
     background-color: var(--black-color);
     display: flex;
@@ -555,7 +556,7 @@ a {
     width: 100%;
     padding: 3% 0 0 0;
   }
-  
+
   .partner__title {
     color: #fff;
     font-size: 1.9rem;
@@ -564,7 +565,7 @@ a {
     letter-spacing: -0.01em;
     margin-bottom: 7px;
   }
-  
+
   .partner__logos {
     display: flex;
     justify-content: center;
@@ -572,37 +573,37 @@ a {
     width: 89%;
     height: 66%;
   }
-  
+
   .logo__line {
     width: 40px;
     border-bottom: 1px solid var(--orange-color);
   }
 }
 
-  /* Footer  */
+/* Footer  */
+.footer__container {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
   .footer__container {
-    display: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4%;
+    padding: 0;
+    height: 14vh;
   }
 
-  @media screen and (min-width: 768px){
-    .footer__container {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 4%;
-      padding: 0;
-      height: 14vh;
-    }
-    
-    .footer__paragraph {
-      font-size: 0.9rem;
-      font-weight: 700;
-      line-height: 15px;
-      letter-spacing: -0.01em;
-    }
-
-    .footer__logo {
-      width: 13%;
-      height: 95%;
-    }
+  .footer__paragraph {
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: -0.01em;
   }
+
+  .footer__logo {
+    width: 13%;
+    height: 95%;
+  }
+}

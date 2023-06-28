@@ -6,7 +6,7 @@
 
 .hero__background-img {
   background-size: cover;
-  background-image: linear-gradient(rgb(195 190 190 / 0.5), rgba(195, 190, 190, 1)) , url(images/background-2.jpg);
+  background-image: linear-gradient(rgb(195 190 190 / 0.5), rgba(195, 190, 190, 1)), url(images/background-2.jpg);
 }
 
 .toolbar__container {
@@ -24,9 +24,8 @@
 
 .about__title {
   color: rgba(236, 82, 66, 0.9);
-  background-image: url('images/background-h1.jpg');
+  background-image: url("images/background-h1.jpg");
   -webkit-background-clip: text;
-  background-clip: text;
   background-size: cover;
   font-size: 1.9rem;
   font-weight: 800;
@@ -90,7 +89,7 @@
   }
 }
 
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1024px) {
   .about__hero {
     width: 54vw;
     height: 80vh;
@@ -150,6 +149,7 @@
     width: 23%;
   }
 }
+
 /* Past section */
 
 .past__container {
@@ -201,10 +201,10 @@
   height: 99%;
   position: absolute;
   background-color: rgba(236, 82, 66, 0.5);
-  border-radius: 8px; 
+  border-radius: 8px;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   .past__description {
     font-size: 1rem;
   }
@@ -228,8 +228,8 @@
   .past__img-container {
     width: 60%;
   }
-
 }
+
 /* Partners */
 
 .partner__container {
@@ -257,11 +257,10 @@
   gap: 32px;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   .partner__container {
-   display: none;
+    display: none;
   }
-
 }
 
 /* Footer  */
@@ -287,7 +286,7 @@
   display: none;
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
   .footer__container {
     background-color: var(--black-color);
     gap: 4%;
@@ -295,7 +294,7 @@
     height: 16vh;
   }
 
-  .footer__paragraph  {
+  .footer__paragraph {
     color: #fff;
   }
 
@@ -307,6 +306,5 @@
     display: flex;
     width: fit-content;
     height: 95%;
-    width: 15%;
   }
 }
