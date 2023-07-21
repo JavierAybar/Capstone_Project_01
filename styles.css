@@ -198,7 +198,7 @@ a {
   }
 
   .toolbar__menuLink {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 
@@ -298,7 +298,7 @@ a {
 
 @media screen and (min-width: 1440px) {
   .hero__h1 {
-    font-size: 7rem;
+    font-size: 6rem;
     line-height: 110px;
   }
 }
